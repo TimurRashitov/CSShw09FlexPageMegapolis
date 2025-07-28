@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Serif+Text:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0; 
+}
+
+.block_1_title_fixed{
+    background-color:midnightblue;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+    gap: 2vw;
+    align-items: center;
+    width: 100%;
+    height: 7vw;
+    z-index: 25;
+}
+.imgLogo{
+    border: 2px solid blue;
+    border-radius: 40%;
+    width: 10%;
+    height: 60%;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-family: "DM Serif Text", serif;
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.werbung{
+    border-left: 2px solid white;
+    width: 40%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 0.5vw 0.5vw 0.5vw 5vw;
+}
+
+.block2 {
+    height: 35vw;
+    padding-top: 7vw;
+    display: flex;
+}
+
+.image_Main {
+    width: 50%;
+    height: auto;
+}
+
+.aboutUs {
+    background-color: white;
+    color: midnightblue;
+    padding-left: 5%;
+    padding-right: 3%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.textBlock2{
+    font-size: 1.8em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+
+.projects{
+    background-color: lightsteelblue;
+    padding: 1.5vw 0vw 1vw 3vw;
+    font-size: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: midnightblue;
+}
+.block_3_Images{
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2vw;
+    gap: 3vw;
+}
+.imgEvery:hover{
+    transform: scale(1.05);
+}
+.imgEvery {
+    display: block;
+    width: 30%;
+    height: auto;
+    border-radius: 20%;
+    border: 2px solid midnightblue;
+}
+
+.block_4_Kontakts{
+    background-color: midnightblue;
+    padding: 1vw;
+    height: 10vw;
+    display: flex;
+}
+
+.kontakts {
+    color: white;
+    width: 23%;
+    padding: 3vw 2vw 1vw 3vw;
+    font-size: 1.2em;
+}
+
+#kontakts_id {
+    padding-top: 1vw;
+}
+
+#phone_id {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.titleAndMenu {
+    width: 33vw;
+}
+
+.menu ul.line li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul.line li:hover {
+    transform: scale(1.5);
+}
+
+.menu {
+    word-spacing: 35px;
+    letter-spacing: 1px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color:red;
+}
